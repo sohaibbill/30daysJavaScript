@@ -27,3 +27,18 @@ console.log(challenge.match("a"));
 let sinString = "";
 console.log(sinString.concat( '30 Days of',"javascript"));
 console.log(challenge.repeat(2));
+console.log("There is no exercise better for the heart than reaching down and lifting people up.");
+console.log(typeof parseInt('10') == typeof 10);
+console.log(Math.round(parseFloat("9.8")) == 10 );
+let p = "Python",
+    j = "jargon",
+    jargon = "I hope this course is not full of jargon";
+console.log(p.match("on"),j.match('on'));
+console.log(jargon.includes("jargon"));
+
+let ranNum100 = Math.floor(Math.random() * 101);
+let ranNum250 = Math.floor(Math.random() * 251);
+let ranNumbt50n100 = Math.floor(Math.random() * 51) + 50;
+console.log(ranNum100,ranNumbt50n100,ranNum250); 
+
+console.log("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125\n");
